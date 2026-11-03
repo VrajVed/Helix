@@ -11,6 +11,10 @@ on its own, and asks a human at the points that matter:
   and a reviewer from the service registry, follows review, rework and
   deploy, and hands a failed deploy to the recovery loop.
 
+**Demo video:** [watch Helix work an incident end to end](https://www.youtube.com/watch?v=e4SGshhiFbg)
+
+[![Helix demo video](https://i.ytimg.com/vi/e4SGshhiFbg/hqdefault.jpg)](https://www.youtube.com/watch?v=e4SGshhiFbg)
+
 Postgres is the source of truth. Slack, Jira, Notion and a Neo4j graph are
 projections of it, fed through a transactional outbox.
 
